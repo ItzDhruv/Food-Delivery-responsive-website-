@@ -1,0 +1,188 @@
+/* phone mate responsive  */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        position: static;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: black;
+    }
+
+    .navbar li {
+        margin: 10px;
+    }
+
+    .navbar:hover ul {
+        display: flex;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    .sec::before {
+        height: 100vh;
+    }
+
+    .texthai {
+        padding-top: 50px;
+        margin: 10px;
+    }
+
+    .welcome {
+        margin: 20px;
+        padding: 8px;
+    }
+
+    #midlead {
+        margin: 30px;
+    }
+
+    .sec button {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .ad2 {
+        padding-top: 200px;
+        font-size: 20px;
+    }
+
+    .legend {
+        flex-direction: column;
+    }
+
+    .uboder {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .iclint {
+        margin: 10px;
+    }
+
+    .dba::before {
+        height: 120%;
+    }
+
+    .lform {
+        top: 60px;
+        padding: 20px;
+    }
+
+    .letf {
+        padding-top: 20px;
+    }
+
+    .oho {
+        margin: 8px;
+        width: 90%;
+    }
+
+    .moon {
+        padding: 10px;
+    }
+
+    .moon button {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        display: flex;
+        position: relative;
+        right: 0;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    .navbar li {
+        margin: 0 15px;
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    .sec::before {
+        height: 100vh;
+    }
+
+    .ad2 {
+        padding-top: 300px;
+    }
+
+    .iclint {
+        margin: 20px;
+    }
+
+    .dba::before {
+        height: 150%;
+    }
+
+    .lform {
+        top: 80px;
+    }
+}
+
+/* Larger Screens Styles */
+@media only screen and (min-width: 1025px) {
+    .navbar {
+        justify-content: flex-end;
+        padding: 20px;
+    }
+
+    .navbar ul {
+        display: flex;
+        position: static;
+        background-color: transparent;
+    }
+
+    .navbar li {
+        margin: 0 20px;
+    }
+
+    .logo {
+        margin: 15px;
+    }
+
+    .sec::before {
+        height: 100vh;
+    }
+
+    .ad2 {
+        padding-top: 400px;
+    }
+
+    .iclint {
+        margin: 30px;
+    }
+
+    .dba::before {
+        height: 180%;
+    }
+
+    .lform {
+        top: 100px;
+    }
+}
